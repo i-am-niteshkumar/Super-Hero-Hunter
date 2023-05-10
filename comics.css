@@ -1,0 +1,83 @@
+body{
+    background: url('./94665.jpg') no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+    /* overflow: hidden;  */
+    /* text-align: center; */
+    /* position: fixed; */
+    /* background-color: blue; */
+   
+}
+
+.boxItem h1{
+ margin-left:5%;
+ margin-top:5%;
+ /* padding: 1rem; */
+ font-size: 5rem;
+ width: 50%;
+ font-family: 'Kaushan Script', cursive;
+ text-transform: capitalize;
+ /* border-bottom: 2px red solid; */
+
+}
+
+ul{
+    list-style: none;
+    margin-left: 5%;
+    /* padding: 2rem; */
+    width:40%;
+   background-color: black;
+    
+}
+ul li{
+    padding: 1rem;
+    color:red;
+    font-family: 'Lobster', cursive;
+    padding: 2rem;
+    transition: 1s ease-in-out .001s;
+    cursor: pointer;
+    text-decoration: capitalise;
+   
+}
+ul li .row .component{
+    font-size: 1rem;
+}
+
+
+
+.animate-charcter
+{
+   text-transform: uppercase;
+  background-image: linear-gradient(
+    -225deg,
+    #0c1c0b 0%,
+    #b61aef 29%,
+    #c71313 67%,
+    #52ed0af4 100%
+  );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #f7eeee;
+  background-clip: text;
+  text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 2s linear infinite;
+  display: inline-block;
+  font-size: 2rem;
+  margin-left: 10%;
+  margin-bottom: 0px;
+  
+}
+
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+}
